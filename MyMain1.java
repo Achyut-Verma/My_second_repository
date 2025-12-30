@@ -5,5 +5,6 @@ public class MyMain1{
         System.out.println("Experiment");
         int input = in.nextInt();
         System.out.println("The input is "+input);
+        in.close();
     }
 }
